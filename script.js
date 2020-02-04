@@ -5,4 +5,12 @@ $(document).ready(() => {
     $("p").hide()
   })
 
+  $("#button3").click(function(){
+    $("p").show()
+  })
+
+  $("#button4").click(function(){
+    $("p").toggle()
+  })
+
 })
