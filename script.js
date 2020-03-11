@@ -13,4 +13,8 @@ $(document).ready(() => {
     $("p").toggle()
   })
 
+  $("#button5").click(function(){
+    $("#item1").text()
+  })
+
 })
