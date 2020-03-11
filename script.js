@@ -14,7 +14,11 @@ $(document).ready(() => {
   })
 
   $("#button5").click(function(){
-    $("#item1").text()
+    $("#paragraph5").text()
+  })
+
+  $("#button6").click(function(){
+    $("#paragraph6").text("ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn")
   })
 
 })
