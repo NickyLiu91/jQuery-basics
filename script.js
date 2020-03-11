@@ -13,12 +13,10 @@ $(document).ready(() => {
     $("p").toggle()
   })
 
-  $("#button5").click(function(){
-    $("#paragraph5").text()
-  })
+  $("#button5").click(() => {console.log($("#paragraph5").text())})
 
   $("#button6").click(function(){
-    $("#paragraph6").text("ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn")
+    $("#paragraph5").text("ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn")
   })
 
 })
