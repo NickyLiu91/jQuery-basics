@@ -1,8 +1,10 @@
 $(document).ready(() => {
-  $("button").click(() => {console.log("hi")})
+  $("#button1").click(function(){
+    $("#paragraph1").prepend("THE BEGINNING")
+  })
 
   $("#button2").click(function(){
-    $("p").hide()
+    $("#paragraph1").append("THE END")
   })
 
   $("#button3").click(function(){
