@@ -21,7 +21,7 @@ $(document).ready(() => {
   })
 
   $("#button6").click(function(){
-    $("#paragraph5").text("ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn")
+    $("#paragraph1").empty();
   })
 
 })
