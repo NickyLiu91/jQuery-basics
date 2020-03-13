@@ -8,14 +8,17 @@ $(document).ready(() => {
   })
 
   $("#button3").click(function(){
-    $("p").show()
+    var newPara = $("<p></p>").text("NEW PARAGRAPH!")
+    $("#paragraph1").prepend(newPara)
   })
 
   $("#button4").click(function(){
-    $("p").toggle()
+    $("#paragraph1").remove();
   })
 
-  $("#button5").click(() => {console.log($("#paragraph5").text())})
+  $("#button5").click(function(){
+    $("p").remove()
+  })
 
   $("#button6").click(function(){
     $("#paragraph5").text("ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn")
