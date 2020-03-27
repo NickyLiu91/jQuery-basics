@@ -55,12 +55,12 @@ $(document).ready(() => {
     console.log($("#paragraph5").attr('class'))
   })
 
-  // $("#button1").click(function(){
-  //   $("#paragraph1").css('color', 'red');
-  // })
-  //
-  // $("#button2").click(function(){
-  //   $("#paragraph2").css({'color': 'red', 'background-color': 'blue'});
-  // })
+  $("#button3").click(function(){
+    $("#paragraph1").css('color', 'red');
+  })
+
+  $("#button4").click(function(){
+    $("#paragraph2").css({'color': 'red', 'background-color': 'blue'});
+  })
 
 })
