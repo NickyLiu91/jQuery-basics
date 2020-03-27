@@ -49,6 +49,18 @@ $(document).ready(() => {
     console.log($("#paragraph1").attr('class'))
   })
 
+  $("#button2").click(function(){
+    console.log($("#paragraph5").attr('class'))
+    $("#paragraph5").attr('class', 'classX');
+    console.log($("#paragraph5").attr('class'))
+  })
 
+  // $("#button1").click(function(){
+  //   $("#paragraph1").css('color', 'red');
+  // })
+  //
+  // $("#button2").click(function(){
+  //   $("#paragraph2").css({'color': 'red', 'background-color': 'blue'});
+  // })
 
 })
