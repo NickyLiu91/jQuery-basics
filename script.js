@@ -46,11 +46,9 @@ $(document).ready(() => {
   // })
 
   $("#button1").click(function(){
-    $("#paragraph1").css('color', 'red');
+    console.log($("#paragraph1").attr('class'))
   })
 
-  $("#button2").click(function(){
-    $("#paragraph2").css({'color': 'red', 'background-color': 'blue'});
-  })
+
 
 })
